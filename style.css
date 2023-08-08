@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color:aquamarine;
+    padding: 70px;
+    margin: 100px auto;
+    width: 70% ;
+    box-sizing: content-box;
+    text-align: center;
+}
+#tempCalculator label{
+    font-size: 30px;
+
+}
+#temp{
+    border: none;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-display: center;
+    margin-top: 20px;
+}
+
+#temp_diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+[type="submit"]{
+    height: 40px;
+    margin-top: 10px;
+    margin: 20px;
+    width: 100px;
+    font-size: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    color:black;
+}
+
+#resultContainer{
+    font-size: 40px;
+}
+
